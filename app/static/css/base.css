@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('/static/fonts/Roboto-Bold.ttf');
+}
+
+
+body{
+    font-family: roboto;
+    //font-weight: bold;
+
+    //background-image: url('/static/img/bg.jpg');
+    //background-repeat: no-repeat;
+    //background-size: cover;
+
+    background-color: #999966;
+
+    padding: 0;
+    margin: 0;
+
+    //position: absolute;
+    //height: 100vh;
+    //width: 100vw;
+    //top: 0;
+    //left: 0;
+    overflow: hidden;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+.content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    border: solid 2px red;
+}
