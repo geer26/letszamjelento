@@ -42,8 +42,20 @@
 
 <body>
     <div id="content" class="content">
-    {% block body %}
-    {% endblock %}
+
+        <div class="header-style">
+            {% include 'header.html' %}
+        </div>
+
+        <div class="menu-style">
+            {% include 'menu.html' %}
+        </div>
+
+        <div class="main-style">
+            {% block body %}
+            {% endblock %}
+        </div>
+
     </div>
 </body>
 </html>

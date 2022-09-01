@@ -44,4 +44,25 @@ body{
     -webkit-box-sizing: border-box;
 
     border: solid 2px red;
+
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 9fr;
+    grid-template-areas: 'header header'
+                           'menu main';
+}
+
+.header-style{
+    border: 1px solid blue;
+    grid-area: header;
+}
+
+.menu-style{
+    border: 1px solid blue;
+    grid-area: menu;
+}
+
+.main-style{
+    border: 1px solid blue;
+    grid-area: main
 }
