@@ -53,16 +53,19 @@ body{
 }
 
 .header-style{
+    position: relative;
     border: 1px solid blue;
     grid-area: header;
 }
 
 .menu-style{
+    position: relative;
     border: 1px solid blue;
     grid-area: menu;
 }
 
 .main-style{
+    position: relative;
     border: 1px solid blue;
     grid-area: main
 }

@@ -1,9 +1,20 @@
 .header{
-    //position: absolute;
+    position: relative;
     //top: 0;
     //left: 0;
+    //display: inline-block;
+    overflow: hidden;
+
+    // border: 2px solid yellow;
 
     margin: 5px;
 
     display: flex;
+}
+
+.headerlogo {
+    position: relative;
+    height: 10%;
+    width: auto;
+    border: 1px solid green;
 }
